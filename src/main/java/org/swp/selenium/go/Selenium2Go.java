@@ -33,7 +33,6 @@ public class Selenium2Go {
         WebDriver myBrowser;
         String driverPath = "chromedriver.exe";
         System.setProperty("Webdriver.chrome.driver", driverPath);
-        
         ChromeOptions options = new ChromeOptions();
         //khai bao cac tham so khi mo trinh duyet: an danh, ngon ngu
         options.addArguments("--incognito");
